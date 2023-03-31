@@ -49,7 +49,7 @@ public class ZsxqApi implements IZsxqApi{
     public boolean answer(String groupId, String cookie, String topicId, String text) throws IOException {
         CloseableHttpClient httpClient = HttpClientBuilder.create().build();
 
-        HttpPost post = new HttpPost("https://api.zsxq.com/v2/topics/"+topicId+"/commentss");
+        HttpPost post = new HttpPost("https://api.zsxq.com/v2/topics/"+topicId+"/comments");
         post.addHeader("cookie", cookie);
         post.addHeader("Content-Type", "application/json; charset=UTF-8");
         post.addHeader("user-agent","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36");

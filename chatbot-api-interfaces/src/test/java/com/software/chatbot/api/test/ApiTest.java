@@ -18,7 +18,7 @@ public class ApiTest {
     public void query_unanswered_questions() throws IOException {
         CloseableHttpClient httpClient = HttpClientBuilder.create().build();
 
-        HttpGet get = new HttpGet("https://api.zsxq.com/v2/groups/28885518425541/topics?scope=all&count=20");
+        HttpGet get = new HttpGet("https://api.zsxq.com/v2/groups/51112155821554/topics?scope=all&count=20");
 
         get.addHeader("cookie", "sajssdk_2015_cross_new_user=1; zsxq_access_token=0D96595E-B3EB-76FE-8F72-AC09737999BF_BE4197D43C086A40; abtest_env=product; zsxqsessionid=2b60f9779e639616c0faa7ea90966af1; sensorsdata2015jssdkcross={\"distinct_id\":\"812584221521882\",\"first_id\":\"1873111342c8-0e2658f3583e2b-26021b51-2073600-1873111342d763\",\"props\":{},\"$device_id\":\"1873111342c8-0e2658f3583e2b-26021b51-2073600-1873111342d763\",\"identities\":\"eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTg3MzExMjk3NzlmOS0wNTBjMTkwMGM1YzZkNDgtMjYwMjFiNTEtMjA3MzYwMC0xODczMTEyOTc3YTExYzMiLCIkaWRlbnRpdHlfbG9naW5faWQiOiI4MTI1ODQyMjE1MjE4ODIifQ==\",\"history_login_id\":{\"name\":\"$identity_login_id\",\"value\":\"812584221521882\"}}; UM_distinctid=1873112b85c0-0482b1fed3145a-26021b51-1fa400-1873112b85d9ac");
         get.addHeader("Content-Type", "application/json, text/plain, */*");
@@ -65,7 +65,7 @@ public class ApiTest {
 
         HttpPost post = new HttpPost("https://api.openai.com/v1/completions");
         post.addHeader("Content-Type", "application/json");
-        post.addHeader("Authorization", "Bearer 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");
+        post.addHeader("Authorization", "Bearer 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");
 
         String paramJson = "{\"model\": \"text-davinci-003\", \"prompt\": \"帮我写一个java冒泡排序\", \"temperature\": 0, \"max_tokens\": 1024}";
 
