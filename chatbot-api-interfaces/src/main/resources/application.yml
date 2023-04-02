@@ -5,4 +5,4 @@ server:
 chatbot-api:
   groupId: 51112155821554
   cookie: sajssdk_2015_cross_new_user=1; zsxq_access_token=0D96595E-B3EB-76FE-8F72-AC09737999BF_BE4197D43C086A40; zsxqsessionid=2b60f9779e639616c0faa7ea90966af1; sensorsdata2015jssdkcross={"distinct_id":"812584221521882","first_id":"1873111342c8-0e2658f3583e2b-26021b51-2073600-1873111342d763","props":{},"$device_id":"1873111342c8-0e2658f3583e2b-26021b51-2073600-1873111342d763","identities":"eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTg3MzExMjk3NzlmOS0wNTBjMTkwMGM1YzZkNDgtMjYwMjFiNTEtMjA3MzYwMC0xODczMTEyOTc3YTExYzMiLCIkaWRlbnRpdHlfbG9naW5faWQiOiI4MTI1ODQyMjE1MjE4ODIifQ==","history_login_id":{"name":"$identity_login_id","value":"812584221521882"}}; UM_distinctid=1873112b85c0-0482b1fed3145a-26021b51-1fa400-1873112b85d9ac; abtest_env=beta
-  openAiKey: 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
+  openAiKey:
