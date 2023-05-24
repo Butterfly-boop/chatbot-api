@@ -32,7 +32,7 @@ public class ChatbotTsk {
 
     @Resource
     private IOpenAI openAI;
-    @Scheduled(cron = "0/10 * * * * ?")
+    /*@Scheduled(cron = "0/10 * * * * ?")
     public void run(){
         try {
             if (new Random().nextBoolean()) {
@@ -66,5 +66,5 @@ public class ChatbotTsk {
             logger.error("{} 自动回答问题异常",e);
 
         }
-    }
+    }*/
 }
